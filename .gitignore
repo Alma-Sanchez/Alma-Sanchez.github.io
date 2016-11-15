@@ -1,2 +1,3 @@
 #Just for development purposes, for master branch
 .vdcode/*
+node_modules/*
