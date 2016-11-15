@@ -1,3 +1,4 @@
 #Just for development purposes, for master branch
-.vdcode/*
+.vscode/*
 node_modules/*
+.sass-cache/*
