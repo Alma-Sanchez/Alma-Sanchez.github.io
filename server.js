@@ -1,5 +1,18 @@
-var connect = require('connect');
-var serveStatic = require('serve-static');
-connect().use(serveStatic(__dirname)).listen(8080, function(){
-    console.log('Server running on 8080...');
+var express = require('express');
+var app = express();
+var reload = require('reload')
+
+
+app.use(express.static('public'));
+
+
+app.get('/', function (req, res) {
+	res.sendFile(__dirname + "/index.html", function(){});
+	
+});
+var server = app.listen(8081, function () {
+	var host = server.address().address;
+	var port = server.address().port;
+
+	console.log("Example app listening at http://localhost:%s", port);
 });
