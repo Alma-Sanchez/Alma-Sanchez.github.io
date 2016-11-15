@@ -1,0 +1,74 @@
+/*----- NAV --------*/
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: rgba(61, 182, 184, 0.8);
+  text-align: justify; }
+  nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+  nav li {
+    margin: 0 auto;
+    display: inline-block; }
+    nav li a {
+      text-decoration: none;
+      padding: 10px 16px;
+      color: #FFF; }
+      nav li a:active {
+        color: white;
+        background-color: rgba(60, 192, 154, 0.9); }
+
+body, li, div, section, nav, h1, h2, h3 {
+  padding: 0;
+  margin: 0; }
+
+.page-container {
+  min-width: 350px;
+  width: 100vw;
+  margin: 0 auto; }
+
+/*------ FONTS -----*/
+h1, h2, h3 {
+  font-size: 26pt;
+  text-align: center; }
+
+h2 {
+  font-size: 22pt; }
+
+h3 {
+  font-size: 18pt; }
+
+p {
+  font-size: 16pt; }
+
+small {
+  color: red;
+  font-size: 10pt; }
+
+/*--- Content -----*/
+header, section {
+  height: 95vh; }
+
+header {
+  text-align: center;
+  background-color: rgba(0, 9, 0, 0.5); }
+
+section:nth-child(odd) {
+  background: rgba(61, 182, 184, 0.5); }
+
+section:nth-child(even) {
+  background: rgba(0, 18, 14, 0.5); }
+
+.showDetails {
+  display: none;
+  /* change later to left: -1000*/ }
+
+/**Extras :) */
+@-ms-viewport {
+  width: device-width; }
+/*Debugging*/
+.border {
+  border: 1px solid green; }
+
+/*# sourceMappingURL=style.css.map */

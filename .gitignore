@@ -2,5 +2,6 @@
 *
 !.gitignore
 !README.md
-!public/*
-!public/
+!index.html
+!CSS/
+!CSS/*
