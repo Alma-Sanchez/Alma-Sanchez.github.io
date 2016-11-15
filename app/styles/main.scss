@@ -1,0 +1,55 @@
+// $ sass app/styles/main.scss public/CSS/style.css
+$main-color: rgba(61,182,184,.8);
+$heading-bg-color: rgba(0,9,0,.5);
+$hover: rgba(60,192,154,.9);
+$odd-sections: rgba(61,182,184,.5);
+$even-sections: rgba(0,18,14,.5);
+$error: red;
+
+@import 'nav';
+
+body, li, div, section, nav, h1, h2, h3{
+	padding: 0;
+	margin: 0;
+}
+.page-container{
+	min-width: 350px;
+	width: 100vw;
+	margin: 0 auto;
+}
+/*------ FONTS -----*/
+h1, h2, h3{
+	font-size: 26pt;
+	text-align: center;
+}
+h2{font-size: 22pt;}
+h3{font-size: 18pt;}
+p{font-size: 16pt;}
+small{color: $error; font-size: 10pt;}
+
+/*--- Content -----*/
+header, section{
+	height: 95vh;
+}
+header{
+	text-align: center;
+	background-color: $heading-bg-color;
+}
+section:nth-child(odd) {
+    background: $odd-sections;
+}
+
+section:nth-child(even) {
+    background: $even-sections;
+}
+.showDetails{
+	display: none; /* change later to left: -1000*/
+}
+/**Extras :) */
+@-ms-viewport{
+  width: device-width;
+}
+/*Debugging*/
+.border{
+border: 1px solid green;
+}
