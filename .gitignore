@@ -1,4 +1,5 @@
 #Just for development purposes, for master branch
 *
 !.gitignore
+!README.md
 !public/*
