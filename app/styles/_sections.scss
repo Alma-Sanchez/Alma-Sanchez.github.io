@@ -1,0 +1,22 @@
+header, section{
+	height: 95vh;
+}
+header{
+	position: relative;
+	margin-top: 65px;
+	text-align: center;
+	background-color: $heading-bg-color;
+	background-image: url('../images/central_park.jpg');
+
+	div{
+		position: absolute;
+		background-color: $section-bg;
+	}
+}
+section:nth-child(odd) {
+    background: $odd-sections;
+}
+
+section:nth-child(even) {
+    background: $even-sections;
+}
