@@ -1,15 +1,19 @@
 header, section{
-	height: 95vh;
+	height: 97vh;
 }
 header{
+	@extend .cntr-vertically-col;
 	position: relative;
-	margin-top: 65px;
+	margin-top: 60px;
 	text-align: center;
 	background-color: $heading-bg-color;
 	background-image: url('../images/central_park.jpg');
 
 	div{
+		@extend .cntr-vertically-col;
 		position: absolute;
+    width: 64vw;
+    height: 31vh;
 		background-color: $section-bg;
 	}
 }

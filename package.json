@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My website with projects to come soon",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alma-Sanchez/Alma_Sanchez.git"
+  },
+  "keywords": [
+    "porfolio",
+    "alma",
+    "sanchez",
+    "computer",
+    "science",
+    "front-end"
+  ],
+  "author": "Alma Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alma-Sanchez/Alma_Sanchez/issues"
+  },
+  "homepage": "https://github.com/Alma-Sanchez/Alma_Sanchez#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "reload": "^1.1.0"
+  }
+}

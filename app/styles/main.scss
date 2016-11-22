@@ -1,4 +1,6 @@
 // $ sass app/styles/main.scss public/CSS/style.css
+
+// Variables
 $main-color: rgb(61,192,184);
 $nav-bg: #000000;
 $heading-bg-color: rgba(0,9,0,.5);
@@ -10,14 +12,14 @@ $error: #FF0a40;
 
 // Fonts
 $heading-font: 'Poiret One', cursive;
-// $sub-heading-font:'Amaranth', sans-serif;
 $sub-heading-font: 'Arima Madurai', cursive;
 $paragraph-font: 'Open Sans', sans-serif;
+// $sub-heading-font:'Amaranth', sans-serif;
 
 @import 'nav';
 @import 'sections';
 
-body, li, div, section, nav, h1, h2, h3{
+body, li, div, section, nav, h1, h2, h3, ul, ol{
 	padding: 0;
 	margin: 0;
 }
@@ -25,6 +27,12 @@ body, li, div, section, nav, h1, h2, h3{
 	min-width: 350px;
 	width: 100vw;
 	margin: 0 auto;
+}
+.cntr-vertically-col{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 /*------ FONTS -----*/
 h1, h2, h3{
