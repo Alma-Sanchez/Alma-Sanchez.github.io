@@ -1,4 +1,7 @@
 #Just for development purposes, for master branch
-.vscode/*
-node_modules/*
-.sass-cache/*
+*
+!.gitignore
+!index.html
+!CSS/*
+!CSS/
+!images/*
