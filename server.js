@@ -1,8 +1,6 @@
 var express = require('express');
 var app = express();
 var reload = require('reload');
-var path = require('path');
-
 
 app.use(express.static('public'));
 

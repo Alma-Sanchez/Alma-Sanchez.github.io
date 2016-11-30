@@ -1,0 +1,48 @@
+// $ sass app/styles/main.scss public/CSS/style.css
+// 
+// Variables
+$main-color: #13E5BB;
+$hover: rgba(60,192,154,.9);
+
+// Fonts
+@import 'typography';
+
+// Import other styles
+@import 'nav';
+@import 'sections';
+
+.container{
+	min-width: 350px;
+	width: 100vw;
+	margin: 0 auto;
+}
+
+/*--- Content -----*/
+.showDetails{
+	display: none; /* change later to left: -1000*/
+}
+/**Extras :) */
+@-ms-viewport{
+  width: device-width;
+}
+// @media screenwidth(720px)
+
+/*------- Reusable classes --------*/ 
+.cntr-vertically-col{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.cntr-vertically-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 80vw;
+}
+
+/*Debugging*/
+.border{
+	border: 2px solid green;
+}

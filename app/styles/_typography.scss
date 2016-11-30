@@ -1,0 +1,49 @@
+// Initial typography
+
+@font-face {
+    font-family: PoiretOne;
+    src: url(../assets/Poiret_One/PoiretOne-Regular.ttf);
+}
+@font-face {
+    font-family: ArimaMadurai;
+    src: url(../assets/Arima_Madurai/ArimaMadurai-Regular.ttf);
+}
+@font-face {
+    font-family: OpenSans;
+    src: url(../assets/Open_Sans/OpenSans-Regular.ttf);
+}
+
+$heading-font: PoiretOne, cursive;
+$sub-heading-font: ArimaMadurai, cursive;
+$paragraph-font: OpenSans, sans-serif;
+$white: #fff;
+$gold-white: #FAFAD2;
+$hover-on-white: #05f7e6;
+
+.home{
+    font-family: $sub-heading-font;
+}
+.title{
+	font-family: $heading-font;
+}
+.subtitle{
+	font-family: $sub-heading-font;
+}
+p, li, a{
+	font-family: $paragraph-font;
+}
+/*------ FONT SIZES -----*/
+h1, h2, h3{
+	text-align: center;
+}
+h1{
+    font-size: 56pt;
+    letter-spacing: .15em;
+}
+.icon{
+    font-family: FontAwesome;
+}
+h2{font-size: 22pt;}
+h3{font-size: 18pt;}
+p{font-size: 14pt;}
+small{color: $gold-white; font-size: 12pt;}
