@@ -1,0 +1,32 @@
+header, section{
+	min-height: 90vh;
+	@extend .cntr-vertically-col;
+}
+header{
+	max-height: 90vh;
+	margin-top: 65px;
+	position: relative;
+	background-image: url('../images/city_skyline.jpeg');
+	background-size: 100vw 150%;
+	background-repeat: no-repeat;
+	div{
+		max-width: 740px;
+		width: 70vw;
+		height: 90vh;
+		color: $text-color;
+		text-align: center;
+		padding-top: 112px;
+		letter-spacing: .15em;
+	}
+	.header-bottom{
+		color: $gold-white;
+		height: 90px;
+		position: absolute;
+		bottom: 0px;
+		a{
+			color: $gold-white;
+			text-decoration: none;
+			&:hover{ color: $hover-on-white;}
+		}
+	}
+}

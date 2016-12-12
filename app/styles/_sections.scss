@@ -1,51 +1,12 @@
-$section-bg: #ddd2c8;
-$text-color: #061826;
-$sheer-bg: rgba(227, 235, 235, 0.51);
-$section-bg-rv: rgba(1,2,1,.63);
-$text-color-rv: #FAFAD2;
-
-header, section{
-	min-height: 90vh;
-	@extend .cntr-vertically-col;
-}
-header{
-	max-height: 90vh;
-	margin-top: 65px;
-	position: relative;
-	background-image: url('../images/city_skyline.jpeg');
-	background-size: 100vw 150%;
-	background-repeat: no-repeat;
-	div{
-		max-width: 740px;
-		width: 70vw;
-		height: 90vh;
-		color: $text-color;
-		text-align: center;
-		padding-top: 112px;
-		letter-spacing: .15em;
-	}
-	.header-bottom{
-		color: $gold-white;
-		height: 90px;
-		position: absolute;
-		bottom: 0px;
-		a{
-			color: $gold-white;
-			text-decoration: none;
-			&:hover{ color: $hover-on-white;}
-		}
-	}
-}
 section{
+	padding: 30px;
 	div{
-		max-width: 740px;
+		max-width: 760px;
 			span{
 				font-family: "FontAwesome";
 			}
 	}
-	span{
-		font-family: "FontAwesome";
-	}
+
 	&:nth-child(odd) {
 		color: $text-color-rv;
 		background-color: $section-bg-rv;
@@ -64,11 +25,10 @@ section{
 		height: 150px;
 		a{
 			color: $gold-white;
-			&:hover{color:#FFF;}
 		}
-		// &:hover:after{
-		// 	background-color: #f5ebe1;
-		// }
+		&:hover{
+			background-color: #7C1E3F;
+		}
 		.show-details{
 			background-color: #028090;
 		}
@@ -78,6 +38,7 @@ section{
 footer{
 	@extend .cntr-vertically-col;
 	background-color: $nav-bg;
+	font-family: OpenSans, sans-serif;
 	color: #13E5BB;
 	height: 40px;
 }

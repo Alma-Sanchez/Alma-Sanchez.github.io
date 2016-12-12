@@ -1,0 +1,9 @@
+Icons
+&#xf0c9; - fa-bars mobile version menu
+&#xf0e0; - fa-envelope contact
+&#xf09b; - fa-github github icon
+&#xf099; - fa-twitter twitter icon
+&#xf0e1; - fa-linkedin linkedin icon
+&#xf019; - fa-download download icon for resume
+&#xf08a; - fa-heart-o heart
+&#xf06c; - fa-leaf

@@ -1,15 +1,15 @@
 // $ sass app/styles/main.scss public/CSS/style.css
-// 
+
 // Variables
 $main-color: #13E5BB;
 $hover: rgba(60,192,154,.9);
 
-// Fonts
-@import 'typography';
+$section-bg: #ddd2c8;
+$text-color: #061826;
+$sheer-bg: rgba(227, 235, 235, 0.51);
+$section-bg-rv: rgba(1,2,1,.63);
+$text-color-rv: #FAFAD2;
 
-// Import other styles
-@import 'nav';
-@import 'sections';
 
 .container{
 	min-width: 350px;

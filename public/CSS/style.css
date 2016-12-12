@@ -1,3 +1,4 @@
+/*$ sass app/styles/normalize.scss public/CSS/style.css*/
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -6,7 +7,6 @@
  *    IE on Windows Phone and in iOS.
  * Import main.scss at the end
  */
-/*$ sass app/styles/normalize.scss public/CSS/style.css*/
 /* Document
    ========================================================================== */
 html {
@@ -404,6 +404,37 @@ template {
 [hidden] {
   display: none; }
 
+.container {
+  min-width: 350px;
+  width: 100vw;
+  margin: 0 auto; }
+
+/*--- Content -----*/
+.showDetails {
+  display: none;
+  /* change later to left: -1000*/ }
+
+/**Extras :) */
+@-ms-viewport {
+  width: device-width; }
+/*------- Reusable classes --------*/
+.cntr-vertically-col, header, section, section .bubble, footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.cntr-vertically-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw; }
+
+/*Debugging*/
+.border {
+  border: 2px solid green; }
+
 @font-face {
   font-family: PoiretOne;
   src: url(../assets/Poiret_One/PoiretOne-Regular.ttf); }
@@ -427,11 +458,13 @@ p, li, a {
 
 /*------ FONT SIZES -----*/
 h1, h2, h3 {
-  text-align: center; }
+  text-align: center;
+  font-family: OpenSans, sans-serif; }
 
 h1 {
   font-size: 56pt;
-  letter-spacing: .15em; }
+  letter-spacing: .05em;
+  font-family: ArimaMadurai, cursive; }
 
 .icon {
   font-family: FontAwesome; }
@@ -512,66 +545,48 @@ header {
       header .header-bottom a:hover {
         color: #05f7e6; }
 
-section div {
-  max-width: 740px; }
-  section div span {
-    font-family: "FontAwesome"; }
-section span {
-  font-family: "FontAwesome"; }
-section:nth-child(odd) {
-  color: #FAFAD2;
-  background-color: rgba(1, 2, 1, 0.63); }
-section:nth-child(even) {
-  color: #061826;
-  background-color: #ddd2c8; }
-section .bubble {
-  background-color: #028090;
-  border-radius: 100%;
-  width: 150px;
-  height: 150px; }
-  section .bubble a {
-    color: #FAFAD2; }
-    section .bubble a:hover {
-      color: #FFF; }
-  section .bubble:hover:after {
-    background-color: #f5ebe1; }
-  section .bubble .show-details {
-    background-color: #028090; }
+section {
+  padding: 30px; }
+  section div {
+    max-width: 760px; }
+    section div span {
+      font-family: "FontAwesome"; }
+  section:nth-child(odd) {
+    color: #FAFAD2;
+    background-color: rgba(1, 2, 1, 0.63); }
+  section:nth-child(even) {
+    color: #061826;
+    background-color: #ddd2c8; }
+  section .bubble {
+    background-color: #028090;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px; }
+    section .bubble a {
+      color: #FAFAD2; }
+    section .bubble:hover {
+      background-color: #7C1E3F; }
+    section .bubble .show-details {
+      background-color: #028090; }
 
 footer {
   background-color: rgba(0, 0, 0, 0.88);
+  font-family: OpenSans, sans-serif;
   color: #13E5BB;
   height: 40px; }
 
-.container {
-  min-width: 350px;
-  width: 100vw;
-  margin: 0 auto; }
-
-/*--- Content -----*/
-.showDetails {
-  display: none;
-  /* change later to left: -1000*/ }
-
-/**Extras :) */
-@-ms-viewport {
-  width: device-width; }
-/*------- Reusable classes --------*/
-.cntr-vertically-col, header, section, section .bubble, footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-
-.cntr-vertically-row {
+.cards {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 80vw; }
-
-/*Debugging*/
-.border {
-  border: 2px solid green; }
+  flex-flow: wrap; }
+  .cards h2, .cards p {
+    color: #FAFAD2; }
+  .cards .card {
+    background-color: #028090;
+    width: 350px;
+    min-height: 200px;
+    padding: 10px;
+    margin: 5px; }
 
 /*# sourceMappingURL=style.css.map */

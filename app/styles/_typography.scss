@@ -35,10 +35,12 @@ p, li, a{
 /*------ FONT SIZES -----*/
 h1, h2, h3{
 	text-align: center;
+    font-family: OpenSans, sans-serif;
 }
 h1{
     font-size: 56pt;
-    letter-spacing: .15em;
+    letter-spacing: .05em;
+    font-family: ArimaMadurai, cursive;
 }
 .icon{
     font-family: FontAwesome;

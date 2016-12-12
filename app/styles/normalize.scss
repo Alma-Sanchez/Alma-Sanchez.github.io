@@ -1,3 +1,4 @@
+ /*$ sass app/styles/normalize.scss public/CSS/style.css*/
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /**
@@ -7,7 +8,6 @@
  *    IE on Windows Phone and in iOS.
  * Import main.scss at the end
  */
- /*$ sass app/styles/normalize.scss public/CSS/style.css*/
 
 /* Document
    ========================================================================== */
@@ -462,3 +462,12 @@ template {
   display: none;
 }
 @import 'main.scss';
+
+// Fonts
+@import 'typography';
+
+// Import other styles
+@import 'nav';
+@import 'header';
+@import 'sections';
+@import 'projectSec';
