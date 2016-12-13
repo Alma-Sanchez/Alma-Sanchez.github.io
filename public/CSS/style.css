@@ -575,6 +575,9 @@ footer {
   color: #13E5BB;
   height: 40px; }
 
+#project-section p {
+  text-align: center; }
+
 .cards {
   width: 100%;
   display: flex;
@@ -584,6 +587,7 @@ footer {
     color: #FAFAD2; }
   .cards .card {
     background-color: #028090;
+    border-radius: 5px;
     width: 350px;
     min-height: 200px;
     padding: 10px;
