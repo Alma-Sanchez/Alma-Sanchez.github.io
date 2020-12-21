@@ -1,9 +1,30 @@
-#Just for development purposes, for master branch
-*
-!.gitignore
-!README.md
-!index.html
-!CSS/
-!CSS/*
-!assets/*
-!assets/
+# Just for development purposes, for master branch
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# dependencies installed by npm
+node_modules
+
+# build artefacts
+public
+css
+
+# secrets and errors
+.env
+.log
+
+# macOS related files
+.DS_Store
