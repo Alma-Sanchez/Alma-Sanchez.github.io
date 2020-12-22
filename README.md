@@ -1,5 +1,5 @@
 # Alma Sanchez
-https://alma-sanchez.github.io/
+[port](https://alma-sanchez.github.io/)
 
 # Bio
 Hi there! 
@@ -26,9 +26,10 @@ Take alook at my code, learn more about me on LinkedIn and checkout my more crea
 </a>
 
 
-
-</br></br></br>
+<br /> <br /> <br />
 <hr />
 Logo info <br />
-[Github Logo](https://github.com/logos) <br />
-[Instagram](https://en.instagram-brand.com/assets/icons)
+
+[Github Logo](https://github.com/logos) <br/>
+[Instagram](https://en.instagram-brand.com/assets/icons) <br/>
+[LinkedIn](https://brand.linkedin.com/)
