@@ -6,10 +6,10 @@ Hi there!
 
 My name is Alma, I'm a first generation college graduate with a BS in Computer Science from American University. I love working with JavaScript and learning more about UI/UX in order to provide a pleasant experience when creating websites.
 
-Some of my hobbies include caligraphy, drawing, exploring new music and watching organization/lifestyle videos on youtube. 
+Some of my hobbies include calligraphy, drawing, exploring new music and watching organization/lifestyle videos on youtube. 
 
 # Socials
-Take alook at my code, learn more about me on LinkedIn and checkout my more creative side on Instagram .
+Take a look at my code, learn more about me on LinkedIn and checkout my more creative side on Instagram .
 
 <a href="https://www.github.com/alma-sanchez/" target="_blank">
     <img src="./logos/GitHub-Mark/PNG/GitHub-Mark-32px.png" alt="github logo linking to my homepage at ">
