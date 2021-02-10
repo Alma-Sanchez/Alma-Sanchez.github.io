@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> {{ title }}</title>
+
+	<link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
+</head>
+
+<body>
+	<header>
+		<nav>
+			<a href="/home" class="logo"> Alma Sanchez </a>
+			
+			<ul>
+				<li><a href="/about">About</a></li>
+				<li><a href="/resume">Resume</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>{{ title }}</h1>
+
+		{{ content | safe }}
+
+	
+	</main>
+
+	<footer>
+		<a href="https://www.instagram.com/_mastering_my_creativity_/" target="_blank">
+			<img src="img/IG/sm-icons-instagram-glyph-logo.png" height="32px" alt="ig badge linking to www.instagram.com/_mastering_my_creativity_/">
+		</a>
+
+		&nbsp; &nbsp; &nbsp; 
+
+		<a href="https://www.github.com/alma-sanchez/" target="_blank">
+			<img src="img/GitHub-Mark/PNG/GitHub-Mark-32px.png" alt="github logo linking to my homepage at ">
+		</a> 
+		&nbsp; &nbsp; &nbsp; 
+
+		<a href="https://www.linkedin.com/in/almaysanchez/" target="_blank">
+			<img src="img/LinkedIn/In-2C-34px-TM.png" alt="linkedin badge linking to www.linkedin.com/in/almaysanchez/">
+		</a>
+		&nbsp; &nbsp; &nbsp; 
+
+		<a href="https://www.twitch.tv/msgiggleshits" target="_blank">
+			<img src="img/twitch-icon.png" alt="" style="width:33px;">
+		</a>
+	</footer>
+</body>
+</html>
