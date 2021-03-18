@@ -1,0 +1,13 @@
+body {
+    color: #FFF;
+    background-color: #38544f;
+    width: 95%;
+    margin: auto;
+}
+
+.intro {
+    width: 90%;
+    padding: 20px;
+    margin: 10px;
+    background: black;
+}

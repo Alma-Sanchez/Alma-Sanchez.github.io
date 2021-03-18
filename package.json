@@ -1,33 +1,31 @@
 {
-  "name": "11ty-sass-skeleton",
-  "version": "1.1.0",
-  "description": "",
-  "main": "index.html",
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "0BSD",
   "scripts": {
-    "watch:sass": "sass  --no-source-map --watch src/sass:public/css",
-    "watch:eleventy": "eleventy --serve",
-    "build:sass": "sass  --no-source-map src/sass:public/css",
-    "build:eleventy": "eleventy",
-    "postbuild": "postcss public/css/*.css -u autoprefixer cssnano -r",
-    "start": "npm-run-all build:sass --parallel watch:*",
-    "build": "npm-run-all build:sass build:eleventy"
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "gatsby": "^3.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/5t3ph/11ty-sass-skeleton.git"
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
   },
-  "author": "5t3ph",
-  "license": "ISC",
-  "dependencies": {
-    "@11ty/eleventy": "0.11.0",
-    "autoprefixer": "9.8.6",
-    "cross-env": "7.0.2",
-    "cssnano": "4.1.10",
-    "npm-run-all": "4.1.5",
-    "postcss-cli": "8.1.0",
-    "sass": "1.26.10"
-  },
-  "browserslist": [
-    "last 2 versions"
-  ]
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
 }
