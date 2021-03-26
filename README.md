@@ -1,6 +1,3 @@
-# Alma Sanchez
-https://alma-sanchez.github.io/
-
 # About Me
 
 My name is Alma, I'm a first generation college graduate with a BS in Computer Science from American University. I love working with JavaScript and learning more about UI/UX in order to provide a pleasant experience when creating websites.
@@ -8,7 +5,6 @@ My name is Alma, I'm a first generation college graduate with a BS in Computer S
 Some of my hobbies include calligraphy, drawing, exploring new music and watching organization/lifestyle videos on youtube. 
 
 # Socials
-
 
 Explore my code and projects
 <br />
