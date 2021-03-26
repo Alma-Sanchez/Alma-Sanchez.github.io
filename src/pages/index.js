@@ -1,6 +1,11 @@
-import React from "react"
+import React from "react";
+import ig from "../img/IG/sm-icons-instagram-glyph-logo.png";
+import linkedin from "../img/LinkedIn/linkedinLogo.png";
+import github from "../img/GitHub-Mark/GitHub-Mark-32px.png";
+import twitch from "../img/GitHub-Mark/GitHub-Mark-32px.png";
 
 export default function Home() {
+
   return <div>
     Alma's Portfolio
 
@@ -9,32 +14,28 @@ export default function Home() {
     
       Some of my hobbies include calligraphy, drawing, exploring new music and watching organization/lifestyle videos on youtube.
 
-          
- 		<section class="socials">
-      <a href="https://www.instagram.com/_mastering_my_creativity_/" target="_blank">
-        <img src="img/IG/sm-icons-instagram-glyph-logo.png" height="32px" alt="ig badge linking to www.instagram.com/_mastering_my_creativity_/">
-      </a>
-
-      <a href="https://www.github.com/alma-sanchez/" target="_blank">
-        <img src="img/GitHub-Mark/PNG/GitHub-Mark-32px.png" alt="github logo linking to my homepage at ">
-      </a> 
-      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-
-      <a href="https://www.linkedin.com/in/almaysanchez/" target="_blank">
-        <img src="img/LinkedIn/In-only-logo/2-Color/In-2C-34px-TM.png" alt="linkedin badge linking to www.linkedin.com/in/almaysanchez/">
-      </a>
-      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-
-      <a href="https://www.twitch.tv/msgiggleshits" target="_blank">
-        <img src="img/LinkedIn/In-only-logo/2-Color/In-2C-48px-TM.png" alt="linkedin badge linking to www.linkedin.com/in/almaysanchez/">
-      </a>
-      </section>
-
-
     </div>
 
 
     <footer>
+    <div className="socials">
+        <a href="https://www.instagram.com/_mastering_my_creativity_/" target="_blank" rel="noopener noreferrer" >
+          <img src={ig} height="32px" alt="ig badge linking to www.instagram.com/_mastering_my_creativity_/" />
+        </a>
+
+        <a href="https://www.github.com/alma-sanchez/" target="_blank" rel="noopener noreferrer" >
+          <img src={github} alt="github logo linking to my homepage at " />
+        </a> 
+
+        <a href="https://www.linkedin.com/in/almaysanchez/" target="_blank" rel="noopener noreferrer" >
+          <img src={linkedin} alt="linkedin badge linking to www.linkedin.com/in/almaysanchez/" />
+        </a>
+
+        <a href="https://www.twitch.tv/msgiggleshits" target="_blank" rel="noopener noreferrer" >
+          <img src={twitch} alt="linkedin badge linking to www.linkedin.com/in/almaysanchez/" />
+        </a>
+      </div>
+      
       &copy; 2021 Alma Sanchez
     </footer>
 

@@ -11,3 +11,11 @@ body {
     margin: 10px;
     background: black;
 }
+
+.socials a {
+    margin: 15px;
+}
+
+.socials a:hover {
+    border: 1px solid white;
+}
