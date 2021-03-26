@@ -9,24 +9,28 @@ Some of my hobbies include calligraphy, drawing, exploring new music and watchin
 
 # Socials
 
-Take a look at my code, learn more about me on LinkedIn and checkout my more creative side on Instagram .
 
+Explore my code and projects
+<br />
 <a href="https://www.github.com/alma-sanchez/" target="_blank">
-    <img src="./logos/GitHub-Mark/PNG/GitHub-Mark-32px.png" alt="github logo linking to my homepage at ">
+    <img src="src/img/GitHub-Mark/GitHub-Mark-32px.png" alt="github logo linking to my homepage at ">
 </a> 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
+Learn more about me on LinkedIn
+<br />
 <a href="https://www.linkedin.com/in/almaysanchez/" target="_blank">
-    <img src="./logos/LinkedIn/In-only-logo/2-Color/In-2C-34px-TM.png" alt="linkedin badge linking to www.linkedin.com/in/almaysanchez/">
+    <img src="src/img/LinkedIn/linkedinLogo.png" alt="linkedin badge linking to www.linkedin.com/in/almaysanchez/">
 </a>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
+Checkout my more creative side on Instagram.
+<br />
 <a href="https://www.instagram.com/_mastering_my_creativity_/" target="_blank">
-    <img src="./logos/IG/sm-icons-instagram-glyph-logo.png" height="32px" alt="ig badge linking to www.instagram.com/_mastering_my_creativity_/">
+    <img src="src/img/IG/sm-icons-instagram-glyph-logo.png" height="32px" alt="ig badge linking to www.instagram.com/_mastering_my_creativity_/">
 </a>
 
+<br />
+<br />
 
-<br /> <br /> <br />
 <hr />
 Logo info <br />
 
