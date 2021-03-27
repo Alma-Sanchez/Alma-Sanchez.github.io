@@ -7,9 +7,16 @@ import twitch from "../img/GitHub-Mark/GitHub-Mark-32px.png";
 export default function Home() {
 
   return <div>
-    Alma's Portfolio
+    <nav>
+      <ul>
+        <li>Alma Sanchez</li>
+        <li>About</li>
+        <li>Resume</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
 
-    <div className="intro">
+    <div className="intro content">
       My name is Alma, I'm a first generation college graduate with a BS in Computer Science from American University. I love working with JavaScript and learning more about UI/UX in order to provide a pleasant experience when creating websites.
     
       Some of my hobbies include calligraphy, drawing, exploring new music and watching organization/lifestyle videos on youtube.
